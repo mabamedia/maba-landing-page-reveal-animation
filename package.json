@@ -14,9 +14,12 @@
     "next": "15.1.6"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "postcss": "^8.5.1",
+    "tailwindcss": "v4.0.0-beta.9",
+    "typescript": "^5"
   }
 }
