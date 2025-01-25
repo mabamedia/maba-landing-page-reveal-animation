@@ -1,1 +1,68 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "EditorialItalic";
+  src: url("../fonts/PPEditorialOld-Italic.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Italic.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EditorialRegular";
+  src: url("../fonts/PPEditorialOld-Regular.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Regular.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EditorialUltraBold";
+  src: url("../fonts/PPEditorialOld-Ultrabold.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Ultrabold.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EditorialUltraBoldItalic";
+  src: url("../fonts/PPEditorialOld-UltraboldItalic.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-UltraboldItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EditorialUltraLight";
+  src: url("../fonts/PPEditorialOld-Ultralight.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-Ultralight.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EditorialUltraLightItalic";
+  src: url("../fonts/PPEditorialOld-UltralightItalic.woff2") format("woff2"),
+    url("../fonts/PPEditorialOld-UltralightItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@theme {
+  --font-editorialItalic: "EditorialItalic", serif;
+  --font-editorialRegular: "EditorialRegular", serif;
+  --font-editorialUltraBold: "EditorialUltraBold", serif;
+  --font-editorialUltraBoldItalic: "EditorialUltraBoldItalic", serif;
+  --font-editorialUltraLight: "EditorialUltraLight", serif;
+  --font-editorialUltraLightItalic: "EditorialUltraLightItalic", serif;
+}
+
+html,
+body {
+  background: #000;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font-family: "EditorialUltraBold", serif;
+  font-size: 43px;
+}
